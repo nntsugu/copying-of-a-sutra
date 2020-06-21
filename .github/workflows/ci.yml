@@ -3,5 +3,5 @@ jobs:
     build:
         name: Greeting
         runs-on: ubuntu-latest
-    steps:
-        - run: php -v
+        steps:
+          - run: php -v
