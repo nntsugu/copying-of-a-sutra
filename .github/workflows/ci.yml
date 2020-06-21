@@ -5,3 +5,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
           - run: php -v
+          - run: which php
+          - run: which phpunit
